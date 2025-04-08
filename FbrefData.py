@@ -9,7 +9,9 @@ import requests
 import pandas as pd
 import numpy as np
 
-source = requests.get('https://fbref.com/en/squads/361ca564/Tottenham-Hotspur-Stats').text
+# source = requests.get('https://fbref.com/en/squads/361ca564/Tottenham-Hotspur-Stats').text
+html_source = "table.txt"
+source = open(html_source)
 soup = BeautifulSoup(source, "html.parser")
 
 data_table_section = soup.find_all('div', class_="table_wrapper tabbed")
@@ -55,6 +57,7 @@ for data in data_table_section:
             yrs = val[0]
             val = f"{(float(yrs)+days):.2f}"
             df.loc[index,"Age"] = val
+            val = 0
             #df[(df.Age==val)].Age = val
             #print(df[(df.Age==val)])
             
