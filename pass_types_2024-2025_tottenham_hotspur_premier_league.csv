@@ -1,0 +1,32 @@
+Player,Nation,Pos,Age,90s,Att,Pass_TypesLive,Pass_TypesDead,Pass_TypesFK,Pass_TypesTB,Pass_TypesSw,Pass_TypesCrs,Pass_TypesTI,Pass_TypesCK,Corner_KicksIn,Corner_KicksOut,Corner_KicksStr,OutcomesCmp,OutcomesOff,OutcomesBlocks
+Dejan Kulusevski,se SWE,"MF,FW",24.82,22.7,791,708,78,3,10,1,88,6,62,26,0,0,578,5,39
+Pedro Porro,es ESP,DF,25.43,23.1,1476,1208,262,37,4,11,142,189,36,2,30,0,1081,6,54
+Son Heung-min,kr KOR,FW,32.61,18.6,737,685,51,10,4,3,58,9,27,20,0,0,587,1,23
+Dominic Solanke,eng ENG,FW,27.43,17.8,283,244,38,0,3,1,4,2,0,0,0,0,200,1,11
+Destiny Udogie,it ITA,DF,22.22,15.9,868,736,131,23,0,0,17,108,0,0,0,0,762,1,27
+Brennan Johnson,wls WAL,FW,23.74,16.9,454,445,7,0,0,0,39,7,0,0,0,0,322,2,32
+James Maddison,eng ENG,MF,28.24,15.1,958,860,93,34,10,5,78,3,50,31,6,0,775,5,8
+Pape Matar Sarr,sn SEN,MF,22.43,14.2,771,757,12,5,0,3,7,6,0,0,0,0,672,2,16
+Radu Drăgușin,ro ROU,DF,23.04,13.9,840,793,47,40,1,3,1,3,0,0,0,0,716,0,5
+Guglielmo Vicario,it ITA,GK,28.36,13.0,488,436,52,11,0,0,0,0,0,0,0,0,447,0,1
+Yves Bissouma,ml MLI,MF,28.47,11.7,653,619,32,31,2,2,2,1,0,0,0,0,583,2,7
+Cristian Romero,ar ARG,DF,26.81,10.8,880,806,72,56,4,1,3,2,0,0,0,0,793,2,5
+Rodrigo Bentancur,uy URU,MF,27.65,10.5,659,635,24,22,3,1,2,1,0,0,0,0,589,0,12
+Archie Gray,eng ENG,DF,18.94,10.8,735,681,53,23,0,0,5,23,0,0,0,0,652,1,13
+Micky van de Ven,nl NED,DF,23.83,8.8,645,611,33,16,0,1,0,3,0,0,0,0,589,1,5
+Djed Spence,eng ENG,DF,24.53,8.6,556,483,71,12,2,2,14,59,0,0,0,0,479,2,13
+Ben Davies,wls WAL,DF,31.82,7.0,511,463,45,11,1,4,1,3,0,0,0,0,454,3,5
+Fraser Forster,eng ENG,GK,36.92,7.0,198,125,72,16,0,1,0,0,0,0,0,0,168,1,0
+Lucas Bergvall,se SWE,MF,19.04,7.4,462,433,28,12,0,5,12,5,6,3,2,0,415,1,5
+Timo Werner,de GER,"FW,MF",28.95,5.6,233,219,12,2,2,2,28,8,2,1,0,0,155,2,15
+Antonín Kinský,cz CZE,GK,21.93,4.0,145,123,22,3,0,0,0,0,0,0,0,0,116,0,1
+Richarlison,br BRA,FW,27.77,3.1,75,73,2,1,0,1,7,0,0,0,0,0,49,0,3
+Mikey Moore,eng ENG,"FW,MF",17.52,2.1,67,61,6,0,0,0,12,1,5,2,0,0,48,0,3
+Wilson Odobert,fr FRA,FW,20.22,1.8,79,75,1,0,0,0,5,1,0,0,0,0,60,3,4
+Brandon Austin,eng ENG,GK,26.11,1.0,32,24,8,2,0,0,0,0,0,0,0,0,22,0,0
+Mathys Tel,fr FRA,FW,19.81,1.0,23,23,0,0,0,0,2,0,0,0,0,0,16,0,0
+Kevin Danso,at AUT,DF,26.41,0.9,60,57,3,3,0,1,1,0,0,0,0,0,53,0,1
+Sergio Reguilón,es ESP,DF,28.17,1.4,105,88,16,1,0,0,10,13,2,1,1,0,73,1,4
+Alfie Dorrington,eng ENG,DF,19.83,0.2,16,16,0,0,0,0,0,0,0,0,0,0,15,0,0
+Dane Scarlett,eng ENG,FW,20.90,0.1,2,2,0,0,0,0,0,0,0,0,0,0,1,0,1
+Will Lankshear,eng ENG,"FW,MF",19.83,0.1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
