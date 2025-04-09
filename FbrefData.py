@@ -10,7 +10,7 @@ import pandas as pd
 import numpy as np
 
 # source = requests.get('https://fbref.com/en/squads/361ca564/Tottenham-Hotspur-Stats').text
-html_source = "table.txt"
+html_source = "tableshtml\passing2425.txt"
 source = open(html_source)
 soup = BeautifulSoup(source, "html.parser")
 
@@ -50,7 +50,17 @@ for data in data_table_section:
         
         
     if "Age" in df.columns.values:
+        indexer=0
         for val in df["Age"]:
+            if pd.isnull(val):
+                df = df.drop(indexer)
+                indexer+=1
+                continue
+            contains_number = any(char.isdigit() for char in val)
+            if contains_number==False:
+                df = df.drop(indexer)
+                indexer+=1
+                continue
             index = df[df.Age == val].index[0]
             val = val.split("-")
             days = float(val[1])/365.2425
@@ -58,9 +68,10 @@ for data in data_table_section:
             val = f"{(float(yrs)+days):.2f}"
             df.loc[index,"Age"] = val
             val = 0
+            indexer+=1
             #df[(df.Age==val)].Age = val
             #print(df[(df.Age==val)])
-            
+           
         df = df.drop(columns="Matches")
         table_name.append(title)
         df = df.fillna("NULL")
