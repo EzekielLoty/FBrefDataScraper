@@ -10,9 +10,10 @@ import pandas as pd
 import numpy as np
 
 # source = requests.get('https://fbref.com/en/squads/361ca564/Tottenham-Hotspur-Stats').text
-html_source = "tableshtml\passing2425.txt"
-source = open(html_source)
-soup = BeautifulSoup(source, "html.parser")
+html_source = "tott2425.txt"
+with open(html_source, encoding="utf-8") as source:
+    soup = BeautifulSoup(source, "html.parser")
+
 
 data_table_section = soup.find_all('div', class_="table_wrapper tabbed")
 
