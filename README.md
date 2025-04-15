@@ -18,12 +18,11 @@ fbref-scraper/
 1. Clone the repository:
    ```bash
    git clone https://github.com/EzekielLoty/FBrefTottenhamDataScraper/
-   cd fbref-scraper/libraries
    ```
 
 2. Install dependencies:
    ```bash
-   pip install -r requirements.txt
+   pip install -r libraries/requirements.txt
    ```
 
 3. Replace `tott2425.txt` with HTML from any FBref team stats page.
