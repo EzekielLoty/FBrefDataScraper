@@ -1,6 +1,6 @@
 # FBref Data Scraper
 
-This is a simple data scraping tool that extracts football player statistics tables from [FBref](https://fbref.com/) team pages. It parses raw HTML files (saved directly from the FBref website) and outputs structured CSV files for further analysis.
+This is a simple data scraping tool that extracts football player statistics tables from [FBref](https://fbref.com/) team pages. It parses raw HTML files (saved directly from the FBref website) and outputs structured CSV files with player data for further analysis.
 
 ## 📁 Project Structure
 
@@ -17,7 +17,7 @@ fbref-scraper/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/fbref-scraper.git
+   git clone https://github.com/EzekielLoty/FBrefTottenhamDataScraper/
    cd fbref-scraper/libraries
    ```
 
