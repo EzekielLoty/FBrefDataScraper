@@ -5,7 +5,7 @@ This is a simple data scraping tool that extracts football player statistics tab
 ## 📁 Project Structure
 
 ```
-fbref-scraper/
+FBrefDataScraper/
 │
 ├── libraries/
 │   ├── requirements.txt       # Python dependencies
@@ -17,7 +17,7 @@ fbref-scraper/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/EzekielLoty/FBrefTottenhamDataScraper/
+   git clone https://github.com/EzekielLoty/FBrefDataScraper/
    ```
 
 2. Install dependencies:
