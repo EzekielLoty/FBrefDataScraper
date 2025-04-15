@@ -9,7 +9,7 @@ FBrefDataScraper/
 │
 ├── libraries/
 │   ├── requirements.txt       # Python dependencies
-│── tott2425.txt           # HTML content of a team's page (e.g., Tottenham Hotspur 2024/25) (Replace with your own html)
+│── tott2425.txt           # HTML content of a team's page (e.g., Tottenham Hotspur 2024/25)
 │── fbrefdata.py           # Main scraping script
 ```
 
