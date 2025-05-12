@@ -35,7 +35,11 @@ for data in data_table_section:
                 temp_col = col[-1]
                 
             else:
-                temp_col = (col[0]+col[-1])
+                if col[-1] in column_name_list:
+                    temp_col = (col[0]+col[-1])
+                else:
+                    temp_col = (col[-1])
+                
                 
             temp_col = temp_col.replace(" ","_")   
             column_name_list.append(temp_col)
