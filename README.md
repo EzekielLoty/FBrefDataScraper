@@ -61,3 +61,4 @@ The script processes all available player statistical tables and outputs CSV fil
 - `pandas`
 - `beautifulsoup4`
 - `numpy`
+- `requests`
